@@ -3,6 +3,6 @@
  */
 var http=require('http');
 var app=require('../app.js')
-http.createServer(app).listen(8100).on('listening',function(){
-    console.log('Listening on port 8100');
+http.createServer(app).listen(80).on('listening',function(){
+    console.log('Listening on port 80');
 });
